@@ -1,0 +1,93 @@
+Header
+.ag-theme-alpine .ag-header {
+  background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Header cell text */
+.ag-theme-alpine .ag-header-cell-label {
+  justify-content: flex-start;
+  color: #0f172a;
+}
+
+/* Floating filters */
+.ag-theme-alpine .ag-floating-filter {
+  background-color: #f8fafc;
+}
+
+/* Rows */
+.ag-theme-alpine .ag-row {
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* Zebra striping */
+.ag-theme-alpine .ag-row:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Hover */
+.ag-theme-alpine .ag-row-hover {
+  background-color: #eef2ff !important;
+}
+
+/* Cells */
+.ag-theme-alpine .ag-cell {
+  font-size: 14px;
+  color: #334155;
+  display: flex;
+  align-items: center;
+}
+
+/* Status badges */
+.status-active {
+  color: #166534;
+  background-color: #dcfce7;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-inactive {
+  color: #7f1d1d;
+  background-color: #fee2e2;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Pagination bar */
+.ag-theme-alpine .ag-paging-panel {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 8px;
+  font-size: 13px;
+}
+
+/* Sidebar */
+.ag-theme-alpine .ag-side-bar {
+  border-left: 1px solid #e5e7eb;
+}
+
+
+/* Header cell right border (resize indicator) */
+.ag-theme-alpine .ag-header-cell {
+  border-right: 1px solid #e5e7eb;
+}
+
+/* Remove border on last header cell */
+.ag-theme-alpine .ag-header-cell:last-child {
+  border-right: none;
+}
+
+/* Stronger resize handle visibility */
+.ag-theme-alpine .ag-header-cell-resize {
+  opacity: 1;
+  width: 6px;
+}
+
+/* On hover, make resize area clearer */
+.ag-theme-alpine .ag-header-cell:hover .ag-header-cell-resize {
+  background-color: #cbd5e1;
+}
