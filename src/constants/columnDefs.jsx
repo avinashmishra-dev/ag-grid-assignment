@@ -11,7 +11,7 @@ export const columnDefs = [
     headerName: "Name",
     valueGetter: (p) => `${p.data.firstName} ${p.data.lastName}`,
   },
-  { headerName: "Email", field: "email" },
+  { headerName: "Status", field: "isActive", cellRenderer: statusRenderer },
   {
     headerName: "Department",
     field: "department",
@@ -29,8 +29,8 @@ export const columnDefs = [
     field: "projectsCompleted",
     cellRenderer: projectsRenderer,
   },
+  { headerName: "Email", field: "email" },
   { headerName: "Location", field: "location" },
-  { headerName: "Status", field: "isActive", cellRenderer: statusRenderer },
   { headerName: "Manager", field: "manager" },
   { headerName: "Skills", field: "skills" },
 ];
